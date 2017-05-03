@@ -11,7 +11,7 @@ function check_text(id) {
     if (document.getElementById(id).value.trim() == display_text[display_counter]) {
         display_counter++;
         entry_text++;
-        $('#myModal').modal('hide')
+        $('#myModal').modal('hide');
         var n = display_counter.toString();
         
         
@@ -47,7 +47,7 @@ function check_text(id) {
                 break;
             case 8:
                 document.getElementById("viewport").src = "wEBgIFS/real_animation9.gif";
-                document.getElementById("code_display").innerHTML = "THE END"
+                document.getElementById("code_display").innerHTML = "THE END";
                 break;
             default:
                 document.getElementById("code_display").innerHTML = "THE END";
